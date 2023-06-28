@@ -41,13 +41,21 @@ SELECT
 
     Selezionare tutti i corsi di laurea magistrale (38)
 
+            SELECT *
+            FROM degrees
+            WHERE level = "magistrale";
+
 
     Contare il numero di dipartimenti di cui e' composta l'università (12)
 
+            SELECT COUNT(*)
+            FROM departments;
 
     Contare gli insegnanti che non hanno un numero di telefono (50)
 
-
+            SELECT COUNT(*)
+            FROM teachers
+            WHERE phone IS NULL;
 
 
 GROUP BY
