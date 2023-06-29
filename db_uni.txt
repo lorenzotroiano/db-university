@@ -34,8 +34,8 @@ SELECT
 
             SELECT *
             FROM exams
-            WHERE DATE(date) = "2020-06-20"
-            AND hour >= "14:00:00";
+            WHERE date = "2020-06-20"
+            AND hour > "14:00:00";
 
 
 
